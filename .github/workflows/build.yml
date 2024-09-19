@@ -31,6 +31,7 @@ jobs:
 
       - name: Create baseline config
         run: |
+          # scripts to check baseline config
           if [ ! -f .secrets.baseline ] ; 
           then
               # This generated baseline file will only be temporarily available on the GitHub side and will not appear in the user's local files.
